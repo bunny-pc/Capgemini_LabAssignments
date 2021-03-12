@@ -11,10 +11,10 @@ public class InsertIntoAuthor {
 	public static void main(String[] args) {
 		EntityManager em=JPAUtil.getEntityManager();
 		
-		Author a1=new Author("Venkata","Sai","Reddy",7207388239L);
-		Author a2=new Author("Gajula","Naveen","",9261381629L);
-		Author a3=new Author("Bhanu","Prakesh","Reddy",7207325639L);
-		Author a4=new Author("Alla","Pavan","Ajay",7207385000L);
+		Author a1=new Author("Bunny","charitra","Reddy",9182500819L);
+		Author a2=new Author("vennapusa","Surya","reddy",7569369939L);
+		Author a3=new Author("lakku","Harshitha","Reddy",9704347355L);
+		Author a4=new Author("Gude","Nandhini","Priya",7093661777L);
 		
 		EntityTransaction txn=em.getTransaction();
 		txn.begin();
