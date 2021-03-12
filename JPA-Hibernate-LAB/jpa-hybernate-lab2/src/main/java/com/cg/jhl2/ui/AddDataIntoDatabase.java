@@ -17,7 +17,7 @@ public class AddDataIntoDatabase {
 		
 		Book b1=new Book(1001L,"Mathmatics",100.0);
 		Book b2=new Book(1002L,"JAVA",600.0);
-		Book b3=new Book(1003L,"CProgramming",900.0);
+		Book b3=new Book(1003L,"CProgramming",800.0);
 		Book b4=new Book(1004L,"Physics",1400.0);
 		Book b5=new Book(1005L,"Chemistry",1600.0);
 		Book b6=new Book(1006L,"Biology",1300.0);
